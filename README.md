@@ -16,3 +16,15 @@ file provides the list of hosts where the Ansible modules needs to be run and th
 
 Beauty of Ansible is that it removes the modules once those are installed so effectively it connects to host machine , executes the instructions and if it’s successfully installed removes the code which was 
 copied on the host machine which was executed.
+
+
+# Installation on Ubuntu
+
+For installing Ansible you have to configure PPA on your machine. For this, you have to run the following line of code −
+
+**$ sudo apt-get update 
+$ sudo apt-get install software-properties-common 
+$ sudo apt-add-repository ppa:ansible/ansible $ sudo apt-get update 
+$ sudo apt-get install ansible**
+
+After running the above line of code, you are ready to manage remote machines through Ansible. Just run Ansible–version to check the version and just to check whether Ansible was installed properly or not.
