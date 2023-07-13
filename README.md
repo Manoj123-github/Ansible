@@ -21,10 +21,11 @@ copied on the host machine which was executed.
 # Installation on Ubuntu
 
 For installing Ansible you have to configure PPA on your machine. For this, you have to run the following line of code −
-
-**$ sudo apt-get update 
+<pre>
+$ sudo apt-get update 
 $ sudo apt-get install software-properties-common 
 $ sudo apt-add-repository ppa:ansible/ansible $ sudo apt-get update 
-$ sudo apt-get install ansible**
+$ sudo apt-get install ansible
+</pre>
 
 After running the above line of code, you are ready to manage remote machines through Ansible. Just run Ansible–version to check the version and just to check whether Ansible was installed properly or not.
