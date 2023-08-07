@@ -8,6 +8,7 @@ now both ansible server is able to connect target server.
  # step 2:-  create a inventory file and add host-ip and save it.
  
    touch inventory
+   
    vim inventory
 
    # step 3:- now create ad-hoc command to create directory on the target server using below command
