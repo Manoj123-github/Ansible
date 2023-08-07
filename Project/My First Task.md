@@ -2,12 +2,13 @@
 
 # steps 1:-
 
-    first create connection between ansible server and target server using ssh-public key , to generate ssh key use **ssh-keygen** , and copy  public and paste in authoruzed_key in target server.
+    first create connection between ansible server and target server using ssh-public key , to generate ssh key use ssh-keygen , and copy  public and paste in authoruzed_key in target server.
     now both ansible server is able to connect target server.
     
  # step 2:-  create a inventory file and add host-ip and save it.
  
-   **touch inventory** 
+   touch inventory
+   vim inventory
 
    # step 3:- now create ad-hoc command to create directory on the target server using below command
    
