@@ -1,4 +1,8 @@
-# first create playbook and save as nginx-playbook.yml
+# inventory file
+add host ip in inventory file 
+
+
+# playbook file nginx-playbook.yml
 <pre>
 ---
 
