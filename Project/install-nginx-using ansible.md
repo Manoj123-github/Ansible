@@ -30,4 +30,5 @@
 
 # now check on target server that nginx is installed or not
 
-![image](https://github.com/Manoj123-github/Ansible/assets/76830665/9591326f-2e76-4e20-95f8-579a398d916c)
+![Screenshot from 2023-08-08 17-46-15](https://github.com/Manoj123-github/Ansible/assets/76830665/bd44d24a-3243-4f06-94f7-584b252473fc)
+
