@@ -31,7 +31,7 @@ Create a playbook that uses the nginx_role you've just created. Let's call this 
 <pre>
 ---
 - name: Install Nginx on remote servers
-  hosts: web_servers
+  hosts: localhost
   become: true
 
   roles:
@@ -45,4 +45,6 @@ In this playbook, replace web_servers with the group or hostname of the remote s
 Run the playbook using the following command:
 
 **ansible-playbook nginx_install.yml**
+
+![image](https://github.com/Manoj123-github/Ansible/assets/76830665/602b97a8-b7de-4516-9da7-e6ff7a703f0b)
 
